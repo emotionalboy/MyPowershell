@@ -1,0 +1,5 @@
+function getpro($z)
+{
+  get-process | where {$_.name -like $z}
+} 
+ 
